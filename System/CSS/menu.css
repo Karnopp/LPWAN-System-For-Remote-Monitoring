@@ -1,0 +1,55 @@
+*{
+  margin:0;
+}
+body{
+  background-color: #cfcfcf;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #1E90FF;
+}
+#navegacao{
+  width: 800px;
+  margin: 0 auto;
+  height:20px;
+}
+.linksDiv{
+  margin-top: 15px;
+  margin-right: 20px;
+  float: left;
+  font-size: 20px;
+}
+.links{
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.links:hover{
+  color: #dcdcdc;
+}
+.cantoDireito{
+  float: right;
+  margin: 20px 5px 0 0;
+}
+#sair{
+  margin: 10px 10px 0 0;/*em cima, direita, embaixo, esquerda*/
+}
+#logado{
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.pendencia{
+  margin-left: 30px;
+  margin: 0 auto;
+  background-color: #C40233;
+  color: #ffffff;
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+  border-radius: 8px;
+}

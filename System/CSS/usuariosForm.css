@@ -1,0 +1,57 @@
+#conteudoPrincipal{
+  width: 550px;
+  margin: 0 auto;
+}
+#formulario{
+  height: 300px;
+  width:550px;
+  margin-top: 130px;
+  background-color:#ffffff;
+  border: none;
+  border-radius: 8px;
+  text-align:center;
+}
+#titulo{
+  font-weight: bold;
+  font-size: 18px;
+}
+.divEstrela{
+  width: 70%;
+  margin-left: 25%;
+}
+.labelsForm{
+  margin: 13px 7px 10px 0;
+}
+.camposForm{
+  background-color: #cfcfcf;
+  border:none;
+  border-radius: 5px;
+  paddind: 5px;
+  height: 33px;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+  width:200px;
+}
+.botoes{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  height: 30px;
+}
+#botaoAdicionar{
+  background-color:#4169e1;
+  width: 150px;
+  margin-top: 15px;
+  color:#ffffff;
+}
+#botaoEditar{
+  background-color:#4169e1;
+  width: 150px;
+  margin-top: 15px;
+  color:#ffffff;
+}
+#botaoEditar:hover, #botaoAdicionar:hover{
+  color: #cfcfcf;
+  cursor: pointer;
+}
